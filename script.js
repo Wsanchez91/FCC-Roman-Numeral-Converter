@@ -6,4 +6,6 @@ convertBtn.addEventListener('click', (event)=>{
     event.preventDefault();
     if(number.value === ''){
       output.textContent = "Please enter a valid number";
+  }else if (number.textContent >= -1){
+    
   }});
